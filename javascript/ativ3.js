@@ -1,0 +1,13 @@
+// let numero1 = prompt("informe o primeiro número");
+// let numero2 = prompt("informe o segundo número");
+// let soma = parseFloat(numero1) + parseFloat(numero2);
+// alert(`A soma de ${numero1} com ${numero2} é ${soma}`);
+let nome = prompt("DIGITE SEU PRIMEIRO NOME");
+let sobreN = prompt("DIGITE SEU SOBRENOME");
+// let nomeCompleto = nome + " " + sobreN;
+let nomeCompleto = `${nome} ${sobreN}`;
+let numero01 = prompt("DIGITE O PRIMEIRO NÚMERO");
+let numero02 = prompt("DIGITE O SEGUNDO NÚMERO");
+let numero03 = prompt("DIGITE O SEGUNDO NÚMERO");
+let soma = parseFloat(numero01) + parseFloat(numero02) + parseFloat(numero03);
+alert(`OBRIGADO ${nomeCompleto}, O NÚMERO ${numero01} SOMADO AO NÚMERO ${numero02} E TAMBÉM SOMADO AO NÚMERO ${numero03} É IGUAL A ${soma}`);
